@@ -1,0 +1,118 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+html {
+  background-color: rgb(42, 42, 42);
+}
+#cookie-total {
+  font-size: 36px;
+  outline-color: rgb(216, 123, 16);
+  outline-width: 2px;
+  outline-style: inset;
+  text-indent: 2px;
+  height: 90px;
+  width: 200px;
+  -webkit-text-stroke: 3px rgb(209, 209, 209);
+  padding: 4px;
+}
+
+h1 {
+  font-size: 48px;
+}
+header {
+  text-align: center;
+  text-shadow: 3px 2px 3px rgb(216, 123, 16);
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.left {
+  display: flex;
+  width: 20%;
+  flex: content;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 400px;
+  padding-top: 60px;
+}
+.wrapper {
+  flex-wrap: wrap;
+}
+button {
+  mix-blend-mode: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.clickable-coin {
+  justify-content: center;
+}
+
+#bitcoin-per-second {
+  font-size: 36px;
+  outline-color: rgb(216, 123, 16);
+  outline-width: 2px;
+  outline-style: inset;
+  text-indent: 2px;
+  height: 90px;
+  width: 200px;
+  -webkit-text-stroke: 3px rgb(209, 209, 209);
+  padding: 4px;
+}
+.shop {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  height: 200px;
+  width: 200px;
+}
+.shop-item {
+  display: flex;
+  flex: 20%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 20px;
+  margin: 4px;
+  outline-color: orangered;
+  outline-width: 6px;
+  outline-style: groove;
+}
+.buy-button {
+  background-color: #4caf50;
+  color: rgb(0, 0, 0);
+  padding: 2px 2px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 64px;
+}
+.shop-text {
+  font-size: 24px;
+  color: aliceblue;
+}
+.item-name {
+  font-size: 24px;
+  color: rgb(236, 139, 4);
+}
+.shop-layout {
+  display: flex;
+  flex-direction: row;
+}
+.reset-save-data {
+  background-color: #de1010;
+  color: rgb(188, 185, 185);
+  padding: 2px 2px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 48px;
+  margin-left: 45%;
+  margin-top: 2%;
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "old PC",
+    "basecost": 25,
+    "costMultiplier": 1.2,
+    "amountOwned": 0,
+    "bpsIncrease": 1,
+    "bpcIncrease": 0
+  },
+  {
+    "id": 2,
+    "name": "Gaming PC",
+    "basecost": 75,
+    "costMultiplier": 1.3,
+    "amountOwned": 0,
+    "bpsIncrease": 0,
+    "bpcIncrease": 3
+  },
+  {
+    "id": 3,
+    "name": "Basic Mining Rig",
+    "basecost": 150,
+    "costMultiplier": 1.4,
+    "amountOwned": 0,
+    "bpsIncrease": 10,
+    "bpcIncrease": 0
+  },
+  {
+    "id": 4,
+    "name": "Advanced Mining Rig",
+    "basecost": 500,
+    "costMultiplier": 1.5,
+    "amountOwned": 0,
+    "bpsIncrease": 5,
+    "bpcIncrease": 20
+  },
+  {
+    "id": 5,
+    "name": "Neuralink",
+    "basecost": 2500,
+    "costMultiplier": 1.6,
+    "amountOwned": 0,
+    "bpsIncrease": 50,
+    "bpcIncrease": 50
+  }
+]
